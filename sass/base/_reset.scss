@@ -1,0 +1,44 @@
+body {
+    font-family: $mainFont, sans-serif;
+    font-size: 14px;
+    background: $main-white-color;
+    margin: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    box-sizing: content-box;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+.contacts {
+    list-style: none;
+    margin-left: auto;
+}
+
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}

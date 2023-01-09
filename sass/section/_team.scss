@@ -1,0 +1,111 @@
+.team {
+    background: $main-background-color;
+    text-align: center;
+}
+
+.team__title {
+    font-size: 36px;
+    line-height: 1, 16;
+    letter-spacing: 0.03em;
+    color: $main-black-color;
+    margin-bottom: 50px;
+}
+
+.team-list {
+    display: flex;
+    gap: 30px;
+    padding-left: 0;
+}
+
+.team-list__item {
+    background-color: $main-white-color;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.team-list__image {
+    display: block;
+}
+
+.team-list__card {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.team-list__title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: $main-black-color;
+    margin-top: 0;
+    margin-bottom: 10px;
+    letter-spacing: 0.03em;
+}
+
+.team-list__desc {
+    font-size: 16px;
+    line-height: 1.19;
+    margin-bottom: 16px;
+    letter-spacing: 0.03em;
+    color: $main-broun-color;
+}
+
+/* Іконки соцмереж */
+
+.team-social {
+    display: flex;
+    justify-content: center;
+}
+
+.team-social__item {
+    width: 44px;
+    height: 44px;
+    margin-right: 10px;
+}
+
+.team-social__item:last-child {
+    margin-right: 0;
+}
+
+.team-social__link {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition-property: background-color;
+    transition-property: border-radius;
+    transition-property: cursor;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.team-social__icon {
+    fill: #afb1b8;
+}
+
+.team-social__link:hover,
+.team-social__link:focus {
+    background-color: $main-blue-color;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.team-social__link .team-social__icon,
+.team-social__link .team-social__icon {
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.team-social__link:hover .team-social__icon,
+.team-social__link:focus .team-social__icon {
+    fill: $main-white-color;
+    cursor: pointer;
+}
