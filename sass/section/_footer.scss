@@ -10,24 +10,6 @@
     align-items: baseline;
 }
 
-.footer__logo {
-    font-family: $secondaryFont;
-    color: $main-blue-color;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1, 19;
-    letter-spacing: 0.03em;
-}
-
-.footer__logo--white {
-    font-family: $secondaryFont;
-    color: $main-white-color;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1, 19;
-    letter-spacing: 0.03em;
-}
-
 .footer__location {
     font-size: 14px;
     line-height: 1, 71;
@@ -57,22 +39,11 @@
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.footer-contacts__send:hover,
-.footer-contacts__send:focus {
-    color: $main-blue-color;
-}
-
-a {
-    text-decoration: none;
-}
-
-h2 {
-    font-size: 36px;
-    line-height: 1, 16;
-    letter-spacing: 0.03em;
-    color: $main-black-color;
+    &:hover,
+    &:focus {
+        color: $main-blue-color;
+    }
 }
 
 .footer-social {
@@ -105,19 +76,19 @@ h2 {
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+            background-color: $main-blue-color;
+        }
 }
 
 .footer-social__item {
     margin-right: 10px;
-}
 
-.footer-social__item:last-child {
-    margin: 0;
-}
-
-.footer-social__link:hover,
-.footer-social__link:focus {
-    background-color: $main-blue-color;
+    &:last-child {
+            margin: 0;
+        }
 }
 
 .footer-social__icon {
@@ -176,14 +147,14 @@ h2 {
     background-color: $main-blue-color;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     cursor: pointer;
-}
 
-.footer-subscribe__btn:hover,
-.footer-subscribe__btn:focus {
-    background-color: $main-btn-color;
-    color: $main-white-color;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    cursor: pointer;
+    &:hover,
+    &:focus {
+            background-color: $main-btn-color;
+            color: $main-white-color;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+            cursor: pointer;
+        }
 }
 
 .footer-subscribe__icon {

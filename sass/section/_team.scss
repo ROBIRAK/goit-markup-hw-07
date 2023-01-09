@@ -54,8 +54,6 @@
     color: $main-broun-color;
 }
 
-/* Іконки соцмереж */
-
 .team-social {
     display: flex;
     justify-content: center;
@@ -65,10 +63,10 @@
     width: 44px;
     height: 44px;
     margin-right: 10px;
-}
 
-.team-social__item:last-child {
-    margin-right: 0;
+    &:last-child {
+        margin-right: 0;
+    }
 }
 
 .team-social__link {
@@ -84,28 +82,28 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
+    &:hover,
+    &:focus {
+            background-color: $main-blue-color;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+
 }
 
 .team-social__icon {
     fill: #afb1b8;
-}
 
-.team-social__link:hover,
-.team-social__link:focus {
-    background-color: $main-blue-color;
-    border-radius: 50%;
-    cursor: pointer;
-}
+    & .team-social__link,
+    & .team-social__link {
+        transition-property: fill;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
 
-.team-social__link .team-social__icon,
-.team-social__link .team-social__icon {
-    transition-property: fill;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.team-social__link:hover .team-social__icon,
-.team-social__link:focus .team-social__icon {
-    fill: $main-white-color;
-    cursor: pointer;
+    .team-social__link:hover &,
+    .team-social__link:focus & {
+        fill: $main-white-color;
+        cursor: pointer;
+    }
 }
