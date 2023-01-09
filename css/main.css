@@ -72,29 +72,21 @@ ul {
   margin-top: 0;
   margin-bottom: 0;
 }
-
-.header__nav {
-  display: flex;
-  align-items: center;
-  justify-content: baseline;
-}
-
 .menu .menu__item {
   margin-right: 50px;
 }
-
 .menu .menu__item:last-child {
   margin-right: 0;
 }
-
 .menu .menu__link {
   padding-top: 24px;
   padding-bottom: 24px;
 }
 
-.menu__link:hover,
-.menu__link:focus {
-  color: #2196F3;
+.header__nav {
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
 }
 
 .menu__link {
@@ -110,14 +102,15 @@ ul {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.menu__link:hover, .menu__link:focus {
+  color: #2196F3;
+}
 .menu__link.menu__link--current {
   color: #2196F3;
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .menu__link.menu__link--current::after {
   content: "";
   position: absolute;
