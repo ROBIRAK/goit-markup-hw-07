@@ -8,13 +8,6 @@ body {
     box-sizing: content-box;
 }
 
-h2 {
-    font-size: 36px;
-    line-height: 1, 16;
-    letter-spacing: 0.03em;
-    color: $main-black-color;
-}
-
 p,
 h1,
 h2,
@@ -26,10 +19,21 @@ h6 {
     margin-bottom: 0;
 }
 
+h2 {
+    font-size: 36px;
+    line-height: 1, 16;
+    letter-spacing: 0.03em;
+    color: $main-black-color;
+}
+
 ul {
     margin: 0;
     list-style: none;
     padding: 0;
+}
+
+a {
+    text-decoration: none;
 }
 
 .contacts {
@@ -48,8 +52,4 @@ ul {
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
-}
-
-a {
-    text-decoration: none;
 }
