@@ -1,0 +1,29 @@
+.hero__button {
+    min-width: 216px;
+    height: 50px;
+    background-color: $main-blue-color;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    border: 0;
+    border-radius: 4px;
+    padding: 0;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.text-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    color: $main-white-color;
+    text-align: center;
+}
+
+body .hero__button:hover,
+body .hero__button:focus {
+    background-color: $main-btn-color;
+    color: $main-blue-color;
+    cursor: pointer;
+}
