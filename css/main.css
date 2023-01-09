@@ -500,7 +500,6 @@ body .hero__button:focus {
   fill: #2196F3;
 }
 
-/* Modal form window */
 .backdrop {
   position: fixed;
   top: 0;
@@ -758,8 +757,6 @@ body .hero__button:focus {
   background-color: #188ce8;
 }
 
-/* ФОРМА УЧИМСЯ */
-/* Футер */
 .footer-box {
   display: flex;
   align-items: baseline;
@@ -886,7 +883,6 @@ h2 {
   color: #FFFFFF;
 }
 
-/* Футер підписка */
 .footer-subscribe {
   display: block;
   align-items: baseline;
@@ -953,7 +949,6 @@ h2 {
   margin-left: 10px;
 }
 
-/* Портфоліо */
 .portfolio {
   list-style: none;
   padding: 94px 0;
