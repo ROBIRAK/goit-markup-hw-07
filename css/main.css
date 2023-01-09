@@ -135,17 +135,14 @@ ul {
   align-items: center;
   justify-content: center;
 }
-
-.contacts .contacts__item + .contacts__item {
-  margin-left: 50px;
-}
-
 .contacts .contacts__item {
   display: flex;
   align-items: center;
   margin-right: 30px;
 }
-
+.contacts .contacts__item + .contacts__item {
+  margin-left: 50px;
+}
 .contacts .contacts__item:last-child {
   margin-right: 0;
 }
@@ -164,25 +161,21 @@ ul {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.contacts__link:hover,
-.contacts__link:focus {
+.contacts__link:hover, .contacts__link:focus {
   cursor: pointer;
   color: #2196F3;
-}
-
-.contacts__link:hover .contacts__icon,
-.contacts__link:focus .contacts__icon {
-  cursor: pointer;
-  fill: #2196F3;
-  transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts__icon {
   margin-right: 10px;
   fill: #757575;
+}
+.contacts__link:hover .contacts__icon, .contacts__link:focus .contacts__icon {
+  cursor: pointer;
+  fill: #2196F3;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header__section {
@@ -208,6 +201,11 @@ ul {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+.hero__button:hover, .hero__button:focus {
+  background-color: #188ce8;
+  color: #2196F3;
+  cursor: pointer;
+}
 
 .text-button {
   font-weight: 700;
@@ -216,13 +214,6 @@ ul {
   letter-spacing: 0.06em;
   color: #FFFFFF;
   text-align: center;
-}
-
-body .hero__button:hover,
-body .hero__button:focus {
-  background-color: #188ce8;
-  color: #2196F3;
-  cursor: pointer;
 }
 
 .hero {

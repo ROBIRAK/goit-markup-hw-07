@@ -10,6 +10,13 @@
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        background-color: $main-btn-color;
+        color: $main-blue-color;
+        cursor: pointer;
+    }
 }
 
 .text-button {
@@ -19,11 +26,4 @@
     letter-spacing: 0.06em;
     color: $main-white-color;
     text-align: center;
-}
-
-body .hero__button:hover,
-body .hero__button:focus {
-    background-color: $main-btn-color;
-    color: $main-blue-color;
-    cursor: pointer;
 }
