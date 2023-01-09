@@ -585,6 +585,10 @@ a {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
 }
+.modal-lable__input:hover, .modal-lable__input:focus {
+  border: 1px solid #2196F3;
+  outline: none;
+}
 
 .form-input:hover,
 .form-input:focus {
