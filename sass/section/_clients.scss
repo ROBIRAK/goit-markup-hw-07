@@ -1,28 +1,15 @@
-.clients {
+.customers {
     padding-top: 94px;
     padding-bottom: 94px;
 }
 
-.clients__title {
-    font-size: 36px;
-    line-height: 1, 16;
-    letter-spacing: 0.03em;
-    color: $main-black-color;
-    font-weight: 700;
-    margin-top: 0;
-    margin-bottom: 50px;
-    text-align: center;
-}
-
-.clients__list {
+.customers__list {
     display: flex;
 }
 
 .customers__item {
     width: 170px;
     height: 92px;
-    border: 1px solid #afb1b8;
-    border-radius: 4px;
     background-position: center;
     background-size: 106px;
     background-repeat: no-repeat;
@@ -47,12 +34,15 @@
     align-items: center;
     justify-content: center;
     fill: #afb1b8;
-    transition-property: fill;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    transition-property: border-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
     &:hover,
     &:focus {
         fill: $main-blue-color;
+        border-color: $main-blue-color;
     }
 }

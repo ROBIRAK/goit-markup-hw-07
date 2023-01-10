@@ -10,14 +10,14 @@
     background-size: cover;
     margin: 0 auto;
     text-align: center;
-}
 
-.hero__title {
-    margin-top: 200;
-    margin-bottom: 30px;
-    font-size: 44px;
-    line-height: 60px;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: $main-white-color;
+    &__title {
+            margin-top: 200;
+            margin-bottom: 30px;
+            font-size: 44px;
+            line-height: 1.36;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            color: $main-white-color;
+        }
 }

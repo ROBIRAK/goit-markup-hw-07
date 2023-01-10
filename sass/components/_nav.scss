@@ -13,8 +13,8 @@
     }
 
     .menu__link {
-        padding-top: 24px;
-        padding-bottom: 24px;
+        padding-top: 32px;
+        padding-bottom: 32px;
     }
 }
 
@@ -30,7 +30,7 @@
     height: 16px;
     font-weight: 500;
     font-size: 14px;
-    line-height: 0, 87;
+    line-height: 0.87;
     letter-spacing: 0.02em;
     position: relative;
     transition-property: color;
@@ -43,6 +43,7 @@
     }
 
     &.menu__link--current {
+        padding-bottom: 29px;
         color: $main-blue-color;
         transition-property: color;
         transition-duration: 250ms;

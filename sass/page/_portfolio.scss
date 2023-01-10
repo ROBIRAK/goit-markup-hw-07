@@ -13,8 +13,6 @@
 .button-list__item {
     color: $main-black-color;
     background-color: $main-background-color;
-    min-width: 73px;
-    height: 38px;
     border: 0;
     padding-left: 22px;
     padding-right: 22px;
@@ -23,14 +21,14 @@
     margin: auto;
     font-weight: 500;
     font-size: 16px;
-    line-height: 0.61;
+    line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
     border-radius: 4px;
-    transition-property: color;
-    transition-property: background-color;
+    transition-property: color, background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
 
     &:hover,
     &:focus {
@@ -58,7 +56,7 @@
     padding-right: 0;
     padding-left: 0;
     padding-top: 0;
-    border: 1px solid $main-border-color;
+    // border: 1px solid $main-border-color;
     transition-property: box-shadow;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -74,6 +72,8 @@
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 24px;
+    border: 1px solid $main-border-color;
+    border-top: 0;
 }
 
 .work-list__title {
@@ -86,12 +86,13 @@
 
 .work-list__text {
     font-size: 16px;
-    line-height: 1, 87;
+    line-height: 1.87;
     letter-spacing: 0.03em;
     color: $main-broun-color;
 }
 
 .work-list__link {
+    display: block;
     transition-property: box-shadow;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);

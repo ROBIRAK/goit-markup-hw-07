@@ -3,14 +3,6 @@
     text-align: center;
 }
 
-.team__title {
-    font-size: 36px;
-    line-height: 1, 16;
-    letter-spacing: 0.03em;
-    color: $main-black-color;
-    margin-bottom: 50px;
-}
-
 .team-list {
     display: flex;
     gap: 30px;
@@ -38,7 +30,7 @@
 .team-list__title {
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.18px;
     letter-spacing: 0.03em;
     color: $main-black-color;
     margin-top: 0;
@@ -72,20 +64,19 @@
 .team-social__link {
     width: 100%;
     height: 100%;
+    border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    cursor: pointer;
+    transition-property: cursor;
     transition-property: background-color;
     transition-property: border-radius;
-    transition-property: cursor;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
     &:hover,
     &:focus {
             background-color: $main-blue-color;
-            border-radius: 50%;
             cursor: pointer;
         }
 

@@ -1,16 +1,10 @@
 .header {
+    height: 80px;
     border-bottom: 1px solid $border-bottom-color;
 }
 
-.header__logo {
-    display: block;
-    padding-top: 16px;
-    padding-bottom: 16px;
-}
-
-.header__section {
+.container--header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
+    }

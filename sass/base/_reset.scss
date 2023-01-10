@@ -3,8 +3,8 @@ body {
     font-size: 14px;
     background: $main-white-color;
     margin: auto;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 0;
+    padding-right: 0;
     box-sizing: content-box;
 }
 
@@ -21,7 +21,7 @@ h6 {
 
 h2 {
     font-size: 36px;
-    line-height: 1, 16;
+    line-height: 1.16;
     letter-spacing: 0.03em;
     color: $main-black-color;
 }

@@ -2,26 +2,32 @@
     font-family: $secondaryFont;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1, 19;
+    line-height: 1.19;
     letter-spacing: 0.03em;
 }
 
-.header__logo--black {
+.logo--black {
     @extend %logotyp;
     color: $main-black-color;
 }
 
-.header__logo--blue {
+.logo--blue {
     @extend %logotyp;
     color: $main-blue-color;
 }
 
-.footer__logo {
+.logo {
     @extend %logotyp;
     color: $main-blue-color;
 }
 
-.footer__logo--white {
+.logo--white {
     @extend %logotyp;
     color: $main-white-color;
+}
+
+.logo--header {
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
