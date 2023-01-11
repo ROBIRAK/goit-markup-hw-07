@@ -1,0 +1,52 @@
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+.social__item {
+    width: 44px;
+    height: 44px;
+    margin-right: 10px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.social__link {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-property: cursor;
+    transition-property: background-color;
+    transition-property: border-radius;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        background-color: $main-blue-color;
+        cursor: pointer;
+    }
+
+}
+
+.social__icon {
+    fill: #afb1b8;
+
+    & .social__link,
+    & .social__link {
+        transition-property: fill;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .social__link:hover &,
+    .social__link:focus & {
+        fill: $main-white-color;
+        cursor: pointer;
+    }
+}
