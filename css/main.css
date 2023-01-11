@@ -448,21 +448,6 @@ a {
   align-items: center;
 }
 
-.customers__item {
-  width: 170px;
-  height: 92px;
-  background-position: center;
-  background-size: 106px;
-  background-repeat: no-repeat;
-  fill: #afb1b8;
-  transition-property: fill;
-  transition-property: border-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.customers__item:hover, .customers__item:focus {
-  border-color: #2196F3;
-}
 .customers__item:not(:last-child) {
   margin-right: 30px;
 }
