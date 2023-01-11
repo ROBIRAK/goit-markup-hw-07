@@ -31,7 +31,10 @@
         background-color: $main-blue-color;
         cursor: pointer;
     }
+}
 
+.social__link--bckg {
+    background: rgba(255, 255, 255, 0.1);
 }
 
 .social__icon {
