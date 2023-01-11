@@ -765,11 +765,11 @@ a {
   color: #2196F3;
 }
 
-.social--footer {
+.footer__social {
   margin-left: 70px;
 }
 
-.social--footer-title {
+.footer__title {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -784,17 +784,6 @@ a {
   display: block;
   align-items: baseline;
   margin-left: 93px;
-}
-
-.footer-subscribe__title {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #FFFFFF;
-  margin-bottom: 20px;
 }
 
 .footer-subscribe__wrapper {
