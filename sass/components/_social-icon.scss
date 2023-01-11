@@ -20,9 +20,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    transition-property: cursor;
     transition-property: background-color;
-    transition-property: border-radius;
+    // transition-property: border-radius;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -39,6 +38,14 @@
 
 .social__icon {
     fill: #afb1b8;
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover &,
+    &:focus {
+        fill: $main-white-color;
+    }
 
     & .social__link,
     & .social__link {
